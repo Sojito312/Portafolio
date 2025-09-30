@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b3d9ff; /* azul claro */
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background-color: #66b2ff;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Sección biografía */
+.biografia {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.biografia h2 {
+  color: #0059b3;
+}
+
+/* Galería */
+.galeria {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.galeria h2 {
+  color: #0059b3;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.imagenes img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #66b2ff;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
